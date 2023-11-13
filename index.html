@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>atividade 8</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+
+</head>
+
+<body>
+
+    <h1>Jogo da velha</h1>
+
+    <table border="1">
+            <tr>
+                <td class="row column"><img src="img/transp.png"  id="c1" alt="imagem" onclick="return checkjogo(this.id)" /></td>
+                <td class="row"><img src="img/transp.png" id="c2" alt="imagem" onclick="return checkjogo(this.id)" /></td>
+                <td class="row baixo"><img src="img/transp.png"  id="c3" alt="imagem" onclick="return checkjogo(this.id)" /></td>
+            </tr>
+            <tr>
+                <td class="column"><img src="img/transp.png" id="c4" alt="imagem" onclick="return checkjogo(this.id)" /></td>
+                <td class="ult"><img src="img/transp.png" id="c5" alt="imagem" onclick="return checkjogo(this.id)" /></td>
+                <td class="baixo"><img src="img/transp.png" id="c6" alt="imagem" onclick="return checkjogo(this.id)" /></td>
+            </tr>
+            <tr>
+                <td class="column ult"><img src="img/transp.png" id="c7" alt="imagem" onclick="return checkjogo(this.id)" /></td>
+                <td class="ult"><img src="img/transp.png" id="c8" alt="imagem" onclick="return checkjogo(this.id)" /></td>
+                <td class="baixo ult"><img src="img/transp.png" id="c9" alt="imagem" onclick="return checkjogo(this.id)" /></td>
+            </tr>
+
+    </table>
+    
+    <button> <a href="index.html" > Reniciar </a></button>
+
+</body>
+</html>
